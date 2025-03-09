@@ -12,7 +12,7 @@ import testbase.Testbase;
 public class Dropdown extends Testbase {
 
 	
-	public void dropdownhandling(WebElement element,String option) {
+	public void dropdownhandling(String option,WebElement element) {
 		
 	
 		Select o = new Select(element);

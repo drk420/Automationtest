@@ -25,6 +25,15 @@ public class Productpage extends Testbase {
 	@FindBy(xpath="//button[@id='add-to-cart-sauce-labs-fleece-jacket']")
 	private WebElement addtocart_button;
 	
+	@FindBy(xpath="//button[@id='react-burger-menu-btn']")
+	private WebElement productpage_dropdown;
+	
+	@FindBy(xpath="//a[@id='about_sidebar_link']")
+	private WebElement about_dropdownoption;
+	
+
+	
+	
 	public void handlingnewdropdown(String option) {
 		//Dropdown d = new Dropdown();
 		//d.dropdownhandling(name_dropdown,option);

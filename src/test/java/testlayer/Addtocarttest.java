@@ -18,6 +18,8 @@ public class Addtocarttest extends Testbase {
 		
 		loginpage.clickonloginbutton();
 		Productpage p = new Productpage (driver);
+
+		
 		p.scrolltoaddtocartbutton();
 		
 		p.clickonaddtocartbutton();
