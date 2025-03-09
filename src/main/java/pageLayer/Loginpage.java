@@ -27,7 +27,7 @@ public class Loginpage extends Testbase {
 	private WebElement password_textbox;
 	
 	
-	@FindBy(xpath="//input[@id='login-button']")
+	@FindBy(xpath="/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/form[1]/input[1]")
 	private WebElement login_button;
 	
 	@FindBy(xpath="//a[contains(text(),'LinkedIn')]")
@@ -48,7 +48,7 @@ public class Loginpage extends Testbase {
 	}
 	
 	
-	public void clickonloginbutton() throws InterruptedException {
+	public void clickonloginbutton()  {
 		
 		login_button.click();
 	}
