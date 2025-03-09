@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import testbase.Testbase;
 import utility.Dropdown;
+import utility.Scrolling;
 
 public class Productpage extends Testbase {
 
@@ -21,6 +22,9 @@ public class Productpage extends Testbase {
 	@FindBy(xpath="//option[contains(text(),'Price (low to high)')]")
 	private WebElement priceloetohigh_option;
 	
+	@FindBy(xpath="//button[@id='add-to-cart-sauce-labs-fleece-jacket']")
+	private WebElement addtocart_button;
+	
 	public void handlingnewdropdown(String option) {
 		//Dropdown d = new Dropdown();
 		//d.dropdownhandling(name_dropdown,option);
@@ -29,7 +33,13 @@ public class Productpage extends Testbase {
 		priceloetohigh_option.click();
 	}
 	
+	public void clickonaddtocartbutton() {
+		addtocart_button.click();
+	}
 	
-	
+	public void scrolltoaddtocartbutton() {
+		
+		Scrolling.scrolluptoelement(addtocart_button);
+	}
 	
 }
