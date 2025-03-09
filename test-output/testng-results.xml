@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-09T13:51:10 IST" name="Default suite" finished-at="2025-03-09T13:51:29 IST" duration-ms="18800">
+    <groups>
+    </groups>
+    <test started-at="2025-03-09T13:51:10 IST" name="Default test" finished-at="2025-03-09T13:51:29 IST" duration-ms="18800">
+      <class name="testlayer.Logintest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testlayer.Logintest@c33b74f]" started-at="2025-03-09T13:51:10 IST" name="setup" finished-at="2025-03-09T13:51:10 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="start()[pri:0, instance:testlayer.Logintest@c33b74f]" started-at="2025-03-09T13:51:11 IST" name="start" finished-at="2025-03-09T13:51:17 IST" duration-ms="6818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="validatelogintest()[pri:0, instance:testlayer.Logintest@c33b74f]" started-at="2025-03-09T13:51:17 IST" name="validatelogintest" finished-at="2025-03-09T13:51:29 IST" duration-ms="11813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogintest -->
+        <test-method is-config="true" signature="closed()[pri:0, instance:testlayer.Logintest@c33b74f]" started-at="2025-03-09T13:51:29 IST" name="closed" finished-at="2025-03-09T13:51:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testlayer.Logintest@c33b74f]" started-at="2025-03-09T13:51:29 IST" name="close" finished-at="2025-03-09T13:51:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testlayer.Logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
